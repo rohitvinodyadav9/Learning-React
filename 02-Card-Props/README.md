@@ -1,8 +1,22 @@
-# React + Vite
+# Card Component Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project serves as a simple demonstration of a React application featuring a reusable card component. The card component is designed to display information about different laptop brands, providing a flexible and modular solution for showcasing various products.
 
-Currently, two official plugins are available:
+## Project Structure
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The project structure is organized as follows:
+
+- `src/`
+  - `components/`
+    - `Card.js`: React component responsible for rendering a card with an image, title, description, tags, and a button.
+  - `App.js`: Main application file that utilizes the `Card` component.
+  - `App.css`: Cascading Style Sheets (CSS) file for styling the application.
+
+## Getting Started
+
+To run the project locally, follow these steps:
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/rohitvinodyadav9/02-Card-Props.git
